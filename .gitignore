@@ -1,2 +1,5 @@
 /commit_message
 /repos/
+*.wasm
+*.o
+*.exe
