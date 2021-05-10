@@ -3,6 +3,8 @@ SRCS    := $(patsubst %.wast,%.wasm,$(WATS))
 OBJS    := $(patsubst %.wasm,%.o,$(SRCS))
 EXES		:= $(patsubst %.o,%.exe,$(OBJS)) 
 
+all: shim target
+
 %.wasm : %.wast
 	wat2wasm $< -o $@
 
@@ -12,10 +14,12 @@ EXES		:= $(patsubst %.o,%.exe,$(OBJS))
 %.exe : %.o
 	clang $< wamr-shim.o -o $@
 
-all: $(EXES)
+shim: 
 	clang -c wamr-shim.S
 
+target: $(EXES)
+
 clean:
-	rm *.wasm
-	rm *.o
-	rm *.exe
+	rm -f *.wasm
+	rm -f *.o
+	rm -f *.exe
