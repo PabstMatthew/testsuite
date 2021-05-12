@@ -1,0 +1,61 @@
+global data size: 4
+indirect call table size: 1
+return.exe
+global data size: 8
+indirect call table size: 29
+call_indirect.exe
+indirect call table size: 0
+f32_cmp.exe
+indirect call table size: 0
+unwind.exe
+indirect call table size: 0
+f64.exe
+global data size: 4
+indirect call table size: 1
+local_tee.exe
+indirect call table size: 0
+skip-stack-guard-page.exe
+global data size: 4
+indirect call table size: 1
+br_if.exe
+indirect call table size: 0
+f64_cmp.exe
+global data size: 4
+indirect call table size: 1
+select.exe
+indirect call table size: 0
+f64_bitwise.exe
+indirect call table size: 0
+switch.exe
+indirect call table size: 0
+store.exe
+indirect call table size: 8
+left-to-right.exe
+global data size: 4
+indirect call table size: 1
+br_table.exe
+indirect call table size: 0
+address.exe
+indirect call table size: 0
+f32.exe
+indirect call table size: 0
+float_misc.exe
+global data size: 60
+indirect call table size: 1
+global.exe
+indirect call table size: 0
+labels.exe
+indirect call table size: 0
+func_ptrs.exe
+global data size: 4
+indirect call table size: 1
+load.exe
+global data size: 4
+indirect call table size: 1
+nop.exe
+indirect call table size: 0
+local_get.exe
+indirect call table size: 0
+f32_bitwise.exe
+indirect call table size: 0
+local_set.exe
